@@ -8,8 +8,7 @@
 # 24 -> 4 16 4
 # 60 -> 10 40 10
 
-Sum = int(input('Введите общее количество журавликов из бумаги: '))
-Peter = int(Sum/6)
+sum_cranes = int(input('Введите общее количество журавликов из бумаги: '))
+Peter = int(sum_cranes/6)
 Kate = int(Peter*4)
-Sergo = int(Peter*2)
-print('Петя - ', Peter, '; Катя - ', Kate, '; Сережа - ', Sergo)
+print('Петя - ', Peter, '; Катя - ', Kate, '; Сережа - ', Peter)
