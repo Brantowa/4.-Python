@@ -5,4 +5,4 @@
 
 number = int(input('Введите трехзначное число: '))
 result = int(number% 10) + int((number/10)%10) + int((number/100)%10)
-print((result))
+print(result)
