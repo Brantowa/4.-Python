@@ -7,4 +7,3 @@ while sq < n:
     if sq <= n:
         print (sq)
     count = count + 1
-
