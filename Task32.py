@@ -11,7 +11,7 @@ list_index = []
 count = 0
 
 for i in list:
-    if max_num>i>min_num:
+    if max_num>=i>=min_num:
         list_index.append (count)
     count=count+1
 print(list_index)
